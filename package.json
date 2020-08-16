@@ -1,8 +1,8 @@
 {
-  "name": "jobber-eslint-config",
+  "name": "eslint-config-jobber",
   "version": "0.1.0",
   "main": "index.js",
-  "repository": "git@github.com:jobber-project/jobber-eslint-config.git",
+  "repository": "git@github.com:jobber-project/eslint-config-jobber.git",
   "author": "Jesper Johansson <johansson.jesper@outlook.com>",
   "license": "MIT",
   "private": true,
