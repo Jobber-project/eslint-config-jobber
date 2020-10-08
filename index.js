@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'import/prefer-default-export': 'off',
+    'import/order': ['error', { 'newlines-between': 'always' }],
     'comma-dangle': ['error', 'always-multiline'],
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
