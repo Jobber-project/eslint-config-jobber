@@ -26,5 +26,10 @@ module.exports = {
         'no-param-reassign': 0,
       },
     },
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      plugins: ['prettier', 'react-hooks', '@typescript-eslint'],
+    },
   ],
 }
