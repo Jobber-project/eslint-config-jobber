@@ -31,5 +31,10 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       plugins: ['prettier', 'react-hooks', '@typescript-eslint'],
     },
+    {
+      files: ['*.test.ts'],
+      parser: '@typescript-eslint/parser',
+      plugins: ['prettier', 'react-hooks', '@typescript-eslint', 'jest'],
+    },
   ],
 }
