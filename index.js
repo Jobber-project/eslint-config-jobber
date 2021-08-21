@@ -18,6 +18,8 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-filename-extension': 'off',
     'react/sort-comp': 'off',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
   },
   overrides: [
     {
