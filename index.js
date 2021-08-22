@@ -42,4 +42,11 @@ module.exports = {
       plugins: ['prettier', 'react-hooks', '@typescript-eslint', 'jest'],
     },
   ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  }
 }
